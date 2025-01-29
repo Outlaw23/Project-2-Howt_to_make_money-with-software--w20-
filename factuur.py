@@ -25,7 +25,7 @@ def generate_invoice():
     c.drawString(300, height - 80, "Peters der West")
     c.drawString(300, height - 100, "Colaweg 43")
     c.drawString(300, height - 120, "5690RT Rotterdam")
-    c.drawString(300, height - 140, "Tel: 098-7654321")
+    c.drawString(300, height - 140, "")
 
     c.setFont("Helvetica", 12)
     c.drawString(400, height - 80, "Factuurnummer: 546774")
