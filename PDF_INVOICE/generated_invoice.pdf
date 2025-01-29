@@ -27,7 +27,11 @@ endobj
 endobj
 5 0 obj
 <<
+<<<<<<< HEAD
 /Author (anonymous) /CreationDate (D:20250129095708+01'00') /Creator (ReportLab PDF Library - www.reportlab.com) /Keywords () /ModDate (D:20250129095708+01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+=======
+/Author (anonymous) /CreationDate (D:20250129094657+01'00') /Creator (ReportLab PDF Library - www.reportlab.com) /Keywords () /ModDate (D:20250129094657+01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+>>>>>>> e6c110f8f02c1e0404155715267f31e628606ff8
   /Subject (unspecified) /Title (untitled) /Trapped /False
 >>
 endobj
@@ -38,10 +42,17 @@ endobj
 endobj
 7 0 obj
 <<
+<<<<<<< HEAD
 /Filter [ /ASCII85Decode /FlateDecode ] /Length 102
 >>
 stream
 GapQh0E=F,0U\H3T\pNYT^QKk?tc>IP,;W#U1^23ihPEM_?CW4KISi90MjG^2,FS#<R;"B/4_?bc;.$^<!^TD#gi]&<T!oYoNMs-~>endstream
+=======
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 112
+>>
+stream
+Gap@D0b-H6'Eri]QkBT"AOS8G;Z7&++dPRVre2ZhOsqaL";<.)VZU,!lijB8"gNbM#<GSRQTl3pBPN/@V!Al7L#6nAaaH1!B'>!3mt]s)\;V0%~>endstream
+>>>>>>> e6c110f8f02c1e0404155715267f31e628606ff8
 endobj
 xref
 0 8
@@ -56,7 +67,11 @@ xref
 trailer
 <<
 /ID 
+<<<<<<< HEAD
 [<f51e05faad796e6fcc47fa0aa8da1f0a><f51e05faad796e6fcc47fa0aa8da1f0a>]
+=======
+[<44b4102d5f9900ad60eeb322facc4cc1><44b4102d5f9900ad60eeb322facc4cc1>]
+>>>>>>> e6c110f8f02c1e0404155715267f31e628606ff8
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 5 0 R
@@ -64,5 +79,9 @@ trailer
 /Size 8
 >>
 startxref
+<<<<<<< HEAD
 1019
+=======
+1029
+>>>>>>> e6c110f8f02c1e0404155715267f31e628606ff8
 %%EOF
