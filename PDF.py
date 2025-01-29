@@ -6,7 +6,7 @@ def generate_pdf(text):
     if not os.path.exists('PDF_INVOICE'):
         os.makedirs('PDF_INVOICE')
 
-    filename = 'PDF_INVOICE/generated_invoice.pdf'
+    filename = 'PDF_INVOICE/factuur.pdf'
 
     c = canvas.Canvas(filename, pagesize=letter)
 
@@ -19,4 +19,4 @@ def generate_pdf(text):
 if __name__ == '__main__':
     user_input = input("Voer de tekst in die je in de PDF wilt hebben: ")
     generate_pdf(user_input)
-    
+
