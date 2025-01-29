@@ -1,0 +1,44 @@
+{
+    "company": {
+        "name": "Paper Code",
+        "address": "Puzzelpap, 2367YU Antwerpen",
+        "phone": "+32 069876543",
+        "email": "PaperCode@outlook.com"
+    },
+    "customer": {
+        "name": "Peters der West",
+        "address": "Colaweg 43, 5690RT Rotterdam"
+    },
+    "invoice": {
+        "number": "546774",
+        "date": "23-04-2015",
+        "items": [
+            {
+                "description": "Omschrijving product 1",
+                "quantity": "X",
+                "price": "€ 0,00"
+            },
+            {
+                "description": "Omschrijving product 2",
+                "quantity": "X",
+                "price": "€ 0,00"
+            },
+            {
+                "description": "Omschrijving product 3",
+                "quantity": "X",
+                "price": "€ 0,00"
+            },
+            {
+                "description": "Omschrijving product 4",
+                "quantity": "X",
+                "price": "€ 0,00"
+            },
+            {
+                "description": "Omschrijving product 5",
+                "quantity": "X",
+                "price": "€ 0,00"
+            }
+        ],
+        "total": "€ 0,00"
+    }
+}
