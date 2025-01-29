@@ -1,5 +1,16 @@
 import json
-import datetime
+import os
 
-with open("test_set_softwareleverancier\test_set_softwareleverancier\2000-018.json") as file
-    order_data = json.load(file)
+
+
+
+
+for x in os.listdir("test_set_softwareleverancier"):
+    print(x)
+
+
+    with open(f"test_set_softwareleverancier/{x}") as json_file:
+        data = json.load(json_file)
+
+    # Print the data
+    print(data)
