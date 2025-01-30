@@ -1,0 +1,9 @@
+{
+    "naam": "Jan",
+    "leeftijd": 30,
+    "hobby's": [
+        "lezen",
+        "voetbal",
+        "muziek"
+    ]
+}
