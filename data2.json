@@ -1,0 +1,25 @@
+{
+    "factuurnummer": "546774",
+    "klantnaam": "Peters der West",
+    "adres": "Colaweg 43",
+    "postcode": "5690 RT",
+    "stad":"Rotterdam",
+    "datum": "2015-04-23",
+    
+    "producten": [
+      {
+        "naam": "Product A",
+        "prijs": 0,
+        "aantal": 0,
+        "totaal": 0
+      },
+      {
+        "naam": "Product B",
+        "prijs": 0,
+        "aantal": 0,
+        "totaal": 0
+      }
+    ],
+    "totaalbedrag": 0
+  }
+  
