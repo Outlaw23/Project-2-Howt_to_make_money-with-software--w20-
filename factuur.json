@@ -7,18 +7,18 @@
     },
     "kosten": {
         "totaalKosten": 919.34,
-        "kostenPerStuk": 459.67
-    },
-    "order": {
-        "ordernummer": "2000-018",
-        "orderdatum": "01-04-2021",
-        "betaaltermijn": "30-dagen"
-    },
-    "klant": {
-        "naam": "PC Sputnik B.V.",
-        "adres": "Kerkstraat 383",
-        "postcode": "7398 AC",
-        "stad": "Amsterdam",
-        "KVK-nummer": "86358703"
+        "kostenPerStuk": 459.67,
+        "order": {
+            "ordernummer": "2000-018",
+            "orderdatum": "01-04-2021",
+            "betaaltermijn": "30-dagen"
+        },
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Kerkstraat 383",
+            "postcode": "7398 AC",
+            "stad": "Amsterdam",
+            "KVK-nummer": "86358703"
+        }
     }
 }
