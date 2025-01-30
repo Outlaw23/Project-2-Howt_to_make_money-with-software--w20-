@@ -6,12 +6,12 @@
         "email": "PaperCode@outlook.com"
     },
     "customer": {
-        "name": "Peters der West",
-        "address": "Colaweg 43, 5690RT Rotterdam"
+        "klantnaam": "Peters der West",
+        "adres": "Colaweg 43, 5690RT Rotterdam"
     },
     "invoice": {
-        "number": "546774",
-        "date": "23-04-2015",
+        "factuurnummer": "546774",
+        "datum": "23-04-2015",
         "items": [
             {
                 "description": "Omschrijving product 1",
@@ -42,3 +42,4 @@
         "total": "€ 0,00"
     }
 }
+
