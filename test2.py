@@ -2,7 +2,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import json
 
-with open('data.json', 'r') as f:
+with open('factuur.json', 'r') as f:
     factuur_data = json.load(f)
 
 pdf_file = "factuur.pdf"
@@ -12,7 +12,7 @@ c.setFont("Helvetica-Bold", 16)
 c.drawString(220, 750, "Factuur")
 
 c.setFont("Helvetica", 12)
-c.drawString(30, 720, f"Klant: {factuur_data['klantnaam']}")
+c.drawString(30, 720, f"Klant: {factuur_data['naam']}")
 c.drawString(30, 705, f"Adres: {factuur_data['adres']}")
 c.drawString(30, 690, f"Postcode: {factuur_data['postcode']}")
 c.drawString(30, 675, f"Stad: {factuur_data['stad']}")
