@@ -25,7 +25,7 @@ c.drawString(30, 630, "Producten:")
 c.setFont("Helvetica", 12)
 y_position = 615
 for product in factuur_data['producten']:
-    c.drawString(30, y_position, f"{product['naam']} - €{product['prijs']} x {product['aantal']} = €{product['totaal']}")
+    c.drawString(30, y_position, f"{product['productnaam']} - €{product['prijs_per_stuk_excl_btw']} x {product['aantal']} = €{product['totaalKosten']}")
     y_position -= 15
 
 c.setFont("Helvetica-Bold", 12)
