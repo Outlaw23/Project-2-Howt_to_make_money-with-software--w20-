@@ -2,7 +2,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import json
 
-with open('data2.json', 'r') as f:
+with open('data.json', 'r') as f:
     factuur_data = json.load(f)
 
 pdf_file = "factuur.pdf"
