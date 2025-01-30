@@ -36,7 +36,8 @@ data = {
         "orderdatum":   dataLoad["order"]["orderdatum"],
         "betaaltermijn": dataLoad["order"]["betaaltermijn"],
         },
-    "klant": dataLoad["order"]["klant"]
+    "klant": dataLoad["order"]["klant"],
+    "producten": dataLoad["order"]["producten"],
     }
 
 
