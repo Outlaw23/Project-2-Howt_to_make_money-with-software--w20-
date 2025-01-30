@@ -21,12 +21,11 @@
         "stad": "Amsterdam",
         "KVK-nummer": "86358703"
     },
-    "producten": [
-        {
-            "productnaam": "Microsoft Visual Studio 2019",
-            "aantal": 2,
-            "prijs_per_stuk_excl_btw": 459.67,
-            "btw_percentage": 21
-        }
-    ]
+    "producten": {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 459.67,
+        "btw_percentage": 21,
+        "totaalKosten": 919.34
+    }
 }
