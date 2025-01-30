@@ -30,6 +30,7 @@ data = {
     "kosten": {
         "totaalKosten":totaalKosten,
         "kostenPerStuk": kostenPerStuk,
+        },
     "order": {
         "ordernummer": dataLoad["order"]["ordernummer"],
         "orderdatum":   dataLoad["order"]["orderdatum"],
@@ -38,7 +39,6 @@ data = {
     "klant": dataLoad["order"]["klant"]
     }
 
-}
 
 
 
