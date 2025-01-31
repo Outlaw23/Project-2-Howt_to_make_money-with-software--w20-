@@ -29,7 +29,7 @@ for product in factuur_data['producten']:
     y_position -= 15
 
 c.setFont("Helvetica-Bold", 12)
-c.drawString(30, y_position - 20, f"Totaalbedrag: €{factuur_data['totaalbedrag']}")
+c.drawString(30, y_position - 20, f"Totaalbedrag: €{factuur_data['totaalKosten']}")
 
 c.save()
 
