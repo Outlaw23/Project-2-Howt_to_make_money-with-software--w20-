@@ -53,6 +53,8 @@ def generate_invoice():
 
     c.line(30, height - 340, width - 30, height - 340)
 
+    c.drawImage("logo.png", 30, height - 60, width=50, height=50)
+
     c.save()
 
     print(f'Factuursjabloon gegenereerd: {filename}')

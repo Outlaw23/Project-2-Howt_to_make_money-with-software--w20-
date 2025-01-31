@@ -6,7 +6,7 @@ import os
 
 
 # functions
-with open(f"test_set_softwareleverancier/2000-018.json") as f:
+with open(f"../../../test_set_softwareleverancier/2000-018.json") as f:
     dataLoad = json.load(f)
 
 kostenPerStuk = (dataLoad["order"]["producten"][0]["prijs_per_stuk_excl_btw"])
@@ -18,7 +18,8 @@ totaalKosten = kostenPerStuk * aantal
 data = {
     "company": {
         "name": "Paper Code",
-        "address": "Puzzelpap, 2367YU Antwerpen",
+        "address": "Puzzelpap 29",
+        "postcode" : "2367YU Sliedrecht",
         "phone": "+32 069876543",
         "email": "PaperCode@outlook.com"
     },
@@ -43,5 +44,5 @@ data = {
 }
 
 # json generator
-with open("factuur.json", "w") as json_file:
+with open("../../deel 3/P2,D3,O1/factuur.json", "w") as json_file:
     json.dump(data, json_file, indent=4)

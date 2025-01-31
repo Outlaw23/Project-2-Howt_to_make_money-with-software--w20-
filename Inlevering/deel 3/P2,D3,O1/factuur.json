@@ -1,7 +1,8 @@
 {
     "company": {
         "name": "Paper Code",
-        "address": "Puzzelpap, 2367YU Antwerpen",
+        "address": "Puzzelpap 29",
+        "postcode": "2367YU Sliedrecht",
         "phone": "+32 069876543",
         "email": "PaperCode@outlook.com"
     },
