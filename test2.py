@@ -12,12 +12,12 @@ c.setFont("Helvetica-Bold", 16)
 c.drawString(220, 750, "Factuur")
 
 c.setFont("Helvetica", 12)
-c.drawString(30, 720, f"Klant: {factuur_data["klant"]["naam"]}")
-c.drawString(30, 705, f"Adres: {factuur_data["klant"]['adres']}")
-c.drawString(30, 690, f"Postcode: {factuur_data["klant"]['postcode']}")
-c.drawString(30, 675, f"Stad: {factuur_data["klant"]['stad']}")
-c.drawString(30, 660, f"Factuurnummer: {factuur_data["order"]['ordernummer']}")
-c.drawString(30, 645, f"Datum: {factuur_data["order"]['orderdatum']}")
+c.drawString(30, 720, f'Klant: {factuur_data["klant"]["naam"]}')
+c.drawString(30, 705, f'Adres: {factuur_data["klant"]["adres"]}')
+c.drawString(30, 690, f'Postcode: {factuur_data["klant"]["postcode"]}')
+c.drawString(30, 675, f'Stad: {factuur_data["klant"]["stad"]}')
+c.drawString(30, 660, f'Factuurnummer: {factuur_data["order"]["ordernummer"]}')
+c.drawString(30, 645, f'Datum: {factuur_data["order"]["orderdatum"]}')
 
 c.setFont("Helvetica-Bold", 12)
 c.drawString(30, 630, "Producten:")
@@ -25,11 +25,15 @@ c.drawString(30, 630, "Producten:")
 c.setFont("Helvetica", 12)
 y_position = 615
 for product in factuur_data['producten']:
-    c.drawString(30, y_position, f"{product['productnaam']} - €{product['prijs_per_stuk_excl_btw']} x {product['aantal']} = €{product['totaalKosten']}")
+    c.drawString(30, y_position, f"{factuur_data['producten']['productnaam']} - €{int(factuur_data['producten']['prijs_per_stuk_excl_btw'])} x {int(factuur_data['producten']['aantal'])} = €{int(factuur_data['producten']['totaalKosten'])}")
     y_position -= 15
 
 c.setFont("Helvetica-Bold", 12)
+<<<<<<< HEAD
 c.drawString(30, y_position - 20, f"Totaalbedrag: €{factuur_data['totaalKosten']}")
+=======
+c.drawString(30, y_position - 20, f"Totaalbedrag: €{factuur_data['producten']['tota alKosten']}")
+>>>>>>> 34d1ad38c632da17cf20f3ee279bf8a07d6ecbe6
 
 c.save()
 
